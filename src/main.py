@@ -34,7 +34,7 @@ class Win32:
         win32api.SendMessage(self.hwnd, win32con.WM_CHAR, hex, 0)
 
 
-TARGET_WINDOW_NAME = "@rinoyagi - Discord"
+TARGET_WINDOW_NAME = None
 
 if __name__ == '__main__':
     hwnd = win32gui.FindWindow(None, TARGET_WINDOW_NAME)
