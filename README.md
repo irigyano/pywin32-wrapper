@@ -2,7 +2,7 @@
 python -m venv .venv
 
 # Windows Bash
-source .venv/Script/activate
+source .venv/Scripts/activate
 
 python -m pip install -r requirements.txt
 ```
